@@ -1,0 +1,182 @@
+.body {
+  position: relative;
+  width: 1440px;
+  height: 915px;
+
+  /* cool gray / 900 */
+
+  background: #0f172a;
+}
+
+.topimage {
+  position: absolute;
+  width: 1500px;
+  height: 110px;
+  left: -16px;
+  bottom: 795px;
+
+  background: linear-gradient(
+    180deg,
+    rgba(59, 130, 246, 0.2) 30.21%,
+    #069371 100%
+  );
+}
+
+.heading {
+  position: absolute;
+  width: 878px;
+  height: 105px;
+  left: 50%;
+  top: 94px;
+  transform: translateX(-50%);
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 19px;
+  /* or 30% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.leftContainer {
+  position: absolute;
+  width: 584px;
+  height: 470px;
+  left: 101px;
+  top: 356px;
+  background-color: white;
+}
+
+.rightContainer {
+  position: absolute;
+  width: 584px;
+  height: 470px;
+  left: 755px;
+  top: 356px;
+  background: white;
+}
+
+.clearbutton {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  left: 370px;
+  top: 380px;
+
+  background: #4791ea;
+  mix-blend-mode: normal;
+  border: 1.07616px dashed rgba(39, 116, 207, 0.3);
+  border-radius: 4.30462px;
+}
+
+.text {
+  font-style: normal;
+  font-family: "Mulish";
+  font-size: 15.0662px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+
+  color: #000000;
+  justify-content: space-evenly;
+}
+
+.uploadbutton {
+  box-sizing: border-box;
+  position: relative;
+  width: 170px;
+  height: 47px;
+  left: 59px;
+  top: 301px;
+  background: #4791ea;
+  border: 1.07616px dashed rgba(39, 116, 207, 0.3);
+  border-radius: 4.30462px;
+  font-family: "Mulish";
+  font-size: 15.0662px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.camerabutton {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 170px;
+  height: 47px;
+  left: 216px;
+  top: 380px;
+
+  background: #4791ea;
+  mix-blend-mode: normal;
+  border: 1.07616px dashed rgba(39, 116, 207, 0.3);
+  border-radius: 4.30462px;
+}
+
+.uploadback {
+  position: absolute;
+  width: 481px;
+  height: 208px;
+  left: 52px;
+  top: 118px;
+  border: 1.07616px dashed rgba(39, 116, 207, 0.3);
+  border-radius: 4.30462px;
+  background-color: #eef6ff;
+  overflow: hidden;
+}
+
+.videoElement {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.imagetext {
+  position: relative;
+  width: 187px;
+  height: 29px;
+  left: 215px;
+  top: 26px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.6754px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
+
+.realtext {
+  position: relative;
+  width: 236px;
+  height: 29px;
+  left: 191px;
+  top: 26px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23.6754px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: black;
+}
